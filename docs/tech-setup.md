@@ -66,7 +66,11 @@ Whether you want to fix a typo or build the next amazing accessibility tool, her
 - Install with default settings (just keep clicking "Next")
 
 **Linux users:**
-- You probably already know: `sudo apt install git` or `sudo yum install git`
+- You probably already know, you can use your respective distros package manager to install `git`.
+- Usually for Ubuntu based distros it's `sudo apt install git` or get latest stable version from their PPA (checkout `git for linux` link at the bottom of this para).
+- For Arch, `sudo pacman -S git`.
+- for Fedora, `yum install git` (upto Fedora 21) or `dnf install git` (Fedora 22 and beyond).
+- For extra details and other distros, checkout git's official linux installation method at [git for linux](https://git-scm.com/downloads/linux).
 
 #### Step 2: GitHub Account Setup
 1. **Sign up at [github.com](https://github.com)** if you haven't already
@@ -106,7 +110,7 @@ Whether you want to fix a typo or build the next amazing accessibility tool, her
 #### Step 3: Install Python (for our current tools)
 **What it is:** The programming language most of our tools use.
 
-- **Download Python 3.8 or newer** from [python.org](https://python.org)
+- **Download Python 3.8 or newer** from [python.org](https://python.org).
 - **During installation:** Check "Add Python to PATH" (very important!)
 - **Test it works:** Open terminal and type `python --version`
 
