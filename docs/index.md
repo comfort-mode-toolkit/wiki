@@ -77,7 +77,7 @@ body {
 
 <hr class="comfort-divider" aria-hidden="true">
 <div class='cta'>
-<a href="getting-started.md" class='comfort-a'>Start your adventure →</a>
+<a href="https://comfort-mode-toolkit.github.io/wiki/getting-started/" class='comfort-a'>Start your adventure →</a>
 </div>
 
 ## What This Place Is About
