@@ -1,0 +1,13 @@
+site_name: Comfort Commons
+site_description: The Comfort Mode Toolkit Contributor Hub
+site_url: https://comfort-mode-toolkit.github.io/wiki/
+theme:
+  name: material
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
