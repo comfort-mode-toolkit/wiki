@@ -87,7 +87,7 @@ Whether you want to fix a typo or build the next amazing accessibility tool, her
    ```
    
 
-4. **Add the SSH key to GitHub:**
+3. **Add the SSH key to GitHub:**
    ```bash
    # Copy your public key (this command works on Mac/Linux)
    cat ~/.ssh/id_ed25519.pub
@@ -99,13 +99,20 @@ Whether you want to fix a typo or build the next amazing accessibility tool, her
    - Go to GitHub → Settings → SSH and GPG keys → New SSH key
    - Paste your key and save
 
-5. **Tell Git who you are:**
+4. **Tell Git who you are:**
    ```bash
    git config --global user.name "Your Name"
    git config --global user.email "your_email@example.com"
    ```
 
-**Test it works:** `ssh -T git@github.com` should say "Hi [username]!"
+   **Test it works:** `ssh -T git@github.com` should say "Hi [username]!"
+
+5. Tell git to use ssh
+   After cloning a new repo locally, 
+   ```bash
+   cd new-repo-name
+   git remote set-url origin git@github.com:OWNER/REPOSITORY.git (Replace OWNER/REPOSITORY.git with the SSH URL of the repository)
+   ```
 
 #### Step 3: Install Python (for our current tools)
 **What it is:** The programming language most of our tools use.
