@@ -18,7 +18,7 @@
 ### ⚔️ Choose Your Role (How You Want to Help)
 | Role | What You Do | Start Here |
 |------|-------------|------------|
-| 🧙 **Mage** | Research and discover | [Research Hub](Research/intro.md) |
+| 🧙 **Mage** | Research and discover | [Research Hub](research/intro.md) |
 | ⚔️ **Warrior** | Build and fix tools | [Current Issues](https://github.com/comfort-mode-toolkit) |
 | 📜 **Sage** | Write and explain | [Documentation Issues](https://github.com/comfort-mode-toolkit/cm-hub/labels/documentation) |
 | 🎨 **Artisan** | Design experiences | [Design Discussions](https://github.com/comfort-mode-toolkit/cm-hub/labels/design) |
@@ -37,7 +37,7 @@
 3. Introduce yourself in any issue comments
 
 ### 🔬 Want to Research?
-→ [Research Hub](Research/intro.md) for templates and current mysteries
+→ [Research Hub](research/intro.md) for templates and current mysteries
 
 ### 💻 Ready to Code?
 → [Technical Setup Guide](tech-setup.md) and [open issues](https://github.com/comfort-mode-toolkit)
@@ -51,8 +51,8 @@
 **Be kind to yourself first.** Take breaks, ask questions, change your mind.
 
 **Read these when you need them:**
-- [Ethics Guide](Research/research-ethics.md) - protecting everyone
-- [Social Media Ethics](Research/social-media-ethics.md) - using community wisdom respectfully
+- [Ethics Guide](research/research-ethics.md) - protecting everyone
+- [Social Media Ethics](research/social-media-ethics.md) - using community wisdom respectfully
 
 ---
 

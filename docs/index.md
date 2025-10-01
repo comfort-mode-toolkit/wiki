@@ -1,8 +1,6 @@
 <style>
 body {
-  font-family: system-ui, "Segoe UI", Arial, sans-serif;
-  background: #f9fafb;
-  color: #23323c;
+
   margin: 0;
   padding: 0;
 }
@@ -15,14 +13,14 @@ body {
   margin-top: 2.3em;
   margin-bottom: 0.5em;
   letter-spacing: 0.5px;
+  font-family: "Yeseva One", serif;
 }
 
 .comfort-subheader {
   text-align: center;
-  font-size: 1.17em;
+  font-size: 1.17rem;
   font-weight: 400;
   margin-bottom: 2.2em;
-  color: #42525c;
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +38,6 @@ body {
   margin: 0 auto 1.8em auto;
   font-size: 1.08em;
   line-height: 1.7;
-  color: #295b47;
   background: #f7f9f7;
   border-radius: 10px;
   padding: 1.3em 1.7em;
@@ -60,7 +57,23 @@ body {
 .cta {
     text-align: center;
     }
+    
+.center {
+text-align: center;}
 
+.md-button-container {
+        display: flex;
+        justify-content: center;
+        width: 100%; /* Ensure the container takes full width for centering */
+    }
+
+.md-button {
+	font-size:1rem;
+	display:inline !important;
+}
+.md-button--primary {
+	margin-right:16px !important;
+}
 @media (max-width: 600px) {
   .comfort-header { font-size: 1.4em; }
   .comfort-subheader { font-size: 1em; }
@@ -74,11 +87,15 @@ body {
 <div class="comfort-subheader">
   —a home in seaside forest for building kinder tools and a kinder world, together. Here, we play, explore, and sometimes build sandcastles so sturdy they make the web a little softer for everyone.
 </div>
+<p class="center"><em>Everything Open-source, Everything Free, Everyone welcome</em></p>
+
 
 <hr class="comfort-divider" aria-hidden="true">
 <div class='cta'>
 <a href="https://comfort-mode-toolkit.github.io/wiki/getting-started/" class='comfort-a'>Start your adventure →</a>
 </div>
+
+<hr class="comfort-divider" aria-hidden="true">
 
 ## What This Place Is About
 
@@ -157,7 +174,7 @@ It looks like this:
 
 **No gatekeeping.** Academic research informs our work, but we translate everything into plain language. If you need a PhD to understand our docs, we've failed.
 
-**Ethics first.** We protect everyone's privacy and dignity. No one gets labeled, studied, or exposed without explicit consent. [Read our full ethics approach →](Research/research-ethics.md)
+**Ethics first.** We protect everyone's privacy and dignity. No one gets labeled, studied, or exposed without explicit consent. [Read our full ethics approach →](research/research-ethics.md)
 
 ---
 
@@ -169,7 +186,7 @@ It looks like this:
 - Pick your animal and role—there's no wrong choice!
 
 ### 🧙 Want to Research?
-- Check our [Research Playground](Research/intro.md) for guidelines and templates
+- Check our [Research Playground](research/intro.md) for guidelines and templates
 - Look for issues tagged "research expedition" or "good first quest"
 - Your lived experience matters more than academic credentials
 

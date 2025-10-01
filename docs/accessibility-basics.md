@@ -176,9 +176,9 @@ Each experiment shows you how someone might experience your site differently.
 
 **Ready to start contributing?** → [Back to Getting Started](getting-started.md) to pick your role and dive in
 
-**Want to dig deeper into the research side?** → [Research Hub](Research/intro.md) to explore what we're learning
+**Want to dig deeper into the research side?** → [Research Hub](research/intro.md) to explore what we're learning
 
-**Curious about our community ethics?** → [Ethics Guide](Research/research-ethics.md) to see how we protect everyone
+**Curious about our community ethics?** → [Ethics Guide](research/research-ethics.md) to see how we protect everyone
 
 ---
 

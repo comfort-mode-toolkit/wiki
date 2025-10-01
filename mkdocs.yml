@@ -1,8 +1,26 @@
 site_name: Comfort Commons
 site_description: The Comfort Mode Toolkit Contributor Hub
 site_url: https://comfort-mode-toolkit.github.io/wiki/
+
+
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Atkinson Hyperlegible
+  features:
+    - content.action.edit
+  palette:
+    primary: custom
+
+extra_css:
+    - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-C8JPXHVLCH
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -11,3 +29,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - footnotes
+
