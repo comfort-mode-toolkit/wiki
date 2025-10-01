@@ -1,4 +1,4 @@
-# Ethics Guide 🛡️✨
+# Ethics Guide 🛡️
 *Protecting everyone who makes this work possible*
 
 ## Our Sacred Law of the Commons

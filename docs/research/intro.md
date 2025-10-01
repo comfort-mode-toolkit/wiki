@@ -1,4 +1,4 @@
-# Research Hub 🔬✨
+# Research Hub 🔬
 *Where curious minds gather to figure out what actually works (and what definitely doesn't)*
 
 Welcome to our research corner of the forest! This is where we dig into the real questions, test our assumptions, and occasionally discover that what we thought we knew was completely wrong. Think of it as our community's investigation headquarters—where every 🧙 Mage quest begins.

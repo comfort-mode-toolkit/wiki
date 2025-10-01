@@ -1,4 +1,4 @@
-# Getting Started 🌟
+# Getting Started 
 *Your quick path into the Commons*
 
 **Never thought about web accessibility?** → [Start with the basics](accessibility-basics.md) - why the web is uncomfortable for so many people and how we can do better

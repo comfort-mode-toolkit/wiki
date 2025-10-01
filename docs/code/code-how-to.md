@@ -1,4 +1,4 @@
-# Code How-To
+# How to code
 
 *You’ve got the idea, we’ve got the road map. Let’s make this magic happen.*
 

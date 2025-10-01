@@ -1,4 +1,4 @@
-# Social Media Ethics Guide 🌐✨
+# Social Media Ethics Guide 🌐
 *How to gather wisdom without violating trust or privacy*
 
 ## The Sacred Rule of Our Commons

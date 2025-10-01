@@ -1,4 +1,4 @@
-# Research How-To 🔍✨
+# Research How-To 🔍
 *Step-by-step guides for each type of research quest*
 
 Never done research before? No problem. These guides assume you're starting from zero and walk you through each type of investigation step by step.
