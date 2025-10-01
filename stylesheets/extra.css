@@ -1,0 +1,109 @@
+    
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap');
+
+
+:root  > * {
+  --md-primary-fg-color: #2d3b2f;
+}
+
+html {
+  font-size: 16px; /* 1rem will equal 16px */
+}
+.md-typeset p, li, a {
+	font-size:1.1rem;
+}
+
+h1 {
+    font-size:3.1rem;}
+
+h2 {
+    font-size:2.1rem;}
+    
+h3 {
+    font-size:1.6rem;}
+
+.md-typeset h1, 
+.md-typeset h2, 
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6  {
+  font-family: "Yeseva One";
+  font-weight: 500 !important;
+}
+
+:root {
+  /* Light mode palette */
+  --md-primary-fg-color: oklch(0.34 0.07 250);
+  --md-primary-fg-color--light: oklch(0.34 0.07 250 / 0.7);
+  --md-primary-fg-color--dark: oklch(0.3 0.07 250);
+  --md-primary-bg-color: oklch(100% 0 0);
+  
+  --md-accent-fg-color: #ebd2af;
+  --md-accent-fg-color--transparent: #ebd2af1a;
+  --md-accent-bg-color: oklch(0.4101 0.0661 75.72);
+  
+  /* Background colors */
+  --md-default-bg-color: #dcdcdc;
+  --md-default-fg-color: #2d3b2f;
+  --md-default-fg-color--light: #2d3b2f80;
+  --md-default-fg-color--lighter: #2d3b2f40;
+  --md-default-fg-color--lightest: #2d3b2f20;
+  
+  /* Code background */
+  --md-code-bg-color: oklch(0.82 0 0);
+  --md-code-fg-color: #2d3b2f;
+  
+  /* Footer */
+  --md-footer-bg-color: oklch(0.3357 0.0278 148.89);
+  --md-footer-fg-color: oklch(92% 0.004 286.32);
+  
+  /* Navigation */
+  --md-nav-bg-color: oklch(0.8945 0 0);
+  
+  /* Status colors */
+  --md-typeset-color: #2d3b2f;
+  --md-success-fg-color: oklch(69% 0.17 162.48);
+  --md-warning-fg-color: oklch(0.65 0.14 85);
+  --md-error-fg-color: oklch(64% 0.246 16.439);
+  
+  /* Secondary elements */
+  --md-secondary-fg-color: oklch(0.2949 0.0501 71.67);
+  --md-secondary-bg-color: oklch(0.97 0 0);
+}
+
+/* Additional customizations */
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-search__input {
+  /* background-color: var(--md-code-bg-color); */
+  /* color: var(--md-default-fg-color); */
+}
+
+/* Button styles */
+/* .md-button {
+  color: var(--md-accent-bg-color);
+  border-color: var(--md-accent-fg-color);
+} */
+
+.md-typeset .md-button:hover {
+    background-color:oklch(0.34 0.07 250 / 0.9);
+    border-color: oklch(0.34 0.07 250 / 0.9);;
+}
+.md-typeset .md-button {
+  border-radius: 0.25rem;
+}
+
+.md-button:hover {
+  background-color: var(--md-accent-bg-color);
+  color: var(--md-accent-fg-color);
+}
+

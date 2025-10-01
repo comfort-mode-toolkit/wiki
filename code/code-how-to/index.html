@@ -1,0 +1,1698 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The Comfort Mode Toolkit Contributor Hub">
+      
+      
+      
+        <link rel="canonical" href="https://comfort-mode-toolkit.github.io/wiki/code/code-how-to/">
+      
+      
+        <link rel="prev" href="../../tech-setup/">
+      
+      
+        <link rel="next" href="../../research/how-to-research/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>How to code - Comfort Commons</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Atkinson Hyperlegible";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-C8JPXHVLCH"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-C8JPXHVLCH",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-C8JPXHVLCH",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-code" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Comfort Commons" class="md-header__button md-logo" aria-label="Comfort Commons" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Comfort Commons
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              How to code
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Comfort Commons" class="md-nav__button md-logo" aria-label="Comfort Commons" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Comfort Commons
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accessibility-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Accessibility Basics 🌐
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethics guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tech-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tech setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Code
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    How to code
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to code
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-find-something-that-interests-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Find Something That Interests You
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Find Something That Interests You">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#browse-the-issues-its-like-online-shoppingbut-free" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browse the Issues (It’s Like Online Shopping—But Free!)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-should-you-pick" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Should You Pick?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claim-your-issue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Claim Your Issue! 🏁
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-set-up-your-development-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Step 2: Set Up Your Development Environment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Step 2: Set Up Your Development Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepare-your-playground" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prepare Your Playground 🏰
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-it-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test It Out
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-understand-the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Step 3: Understand the Problem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔍 Step 3: Understand the Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#read-everything-first-no-seriously-all-of-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Read Everything First. No, Seriously. All of It.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explore-the-codebase-be-curious-like-a-cat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explore the Codebase (Be Curious Like a Cat )
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reproduce-the-issue-bug-you-better-show-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reproduce the Issue (Bug, You Better Show Yourself!)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-plan-your-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Plan Your Approach
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Plan Your Approach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break-it-down-start-with-baby-steps-you-got-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      Break It Down (Start with Baby Steps, You Got This)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-the-nearest-good-code-copying-but-better" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find the Nearest Good Code (Copying, but Better)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-down-your-plan-you-cant-remember-everything-trust-us" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write Down Your Plan (You Can’t Remember Everything, Trust Us)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-write-your-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Step 5: Write Your Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 Step 5: Write Your Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keep-it-simple-no-need-to-rewrite-the-bible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keep It Simple. No Need to Rewrite the Bible.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dont-forget-the-code-style-weve-got-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Don’t Forget the Code Style (We’ve Got Standards)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tests-write-them-theyre-like-insurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tests! Write Them! They’re Like Insurance.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-your-changes-future-you-will-thank-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Your Changes (Future You Will Thank You)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-when-you-get-stuck" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: When You Get Stuck
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 6: When You Get Stuck">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#help-yourself-first-were-all-looking-for-clues-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      Help Yourself First (We’re All Looking for Clues Here)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-ask-for-help-its-okay-to-not-have-all-the-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      When to Ask for Help (It’s Okay to Not Have All the Answers)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-submit-your-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Step 7: Submit Your Pull Request
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Step 7: Submit Your Pull Request">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#double-check-everything-youre-almost-there" class="md-nav__link">
+    <span class="md-ellipsis">
+      Double-Check Everything (You’re Almost There!) 🎯
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-a-pr-description-keep-it-clear-and-snappy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write a PR Description (Keep It Clear and Snappy) ✍️
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reviewers-theyre-your-allies-not-your-enemies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewers: They’re Your Allies, Not Your Enemies 🤝
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-after-your-pr-is-merged" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎉 Step 8: After Your PR is Merged
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎉 Step 8: After Your PR is Merged">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#celebrate-its-party-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Celebrate! (It’s Party Time) 🎉
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clean-up-no-one-likes-a-mess" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clean Up (No One Likes a Mess) 🧹
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keep-going" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keep Going! 🌱
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-problems-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Common Problems &amp; Solutions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips-for-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Pro Tips for Success
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Pro Tips for Success">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technical-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Tips:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community Tips:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Research
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/how-to-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Research How-To 🔍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Research Hub 🔬
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/research-ethics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethics Guide 🛡️
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/social-media-ethics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Social Media Ethics Guide 🌐
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Who we are
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Who we are
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../who%20we%20are/our%20culture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comfort Commons Culture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../who%20we%20are/our%20values/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Our values
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../who%20we%20are/the%20team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The team
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-find-something-that-interests-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Find Something That Interests You
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Find Something That Interests You">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#browse-the-issues-its-like-online-shoppingbut-free" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browse the Issues (It’s Like Online Shopping—But Free!)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-should-you-pick" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Should You Pick?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claim-your-issue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Claim Your Issue! 🏁
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-set-up-your-development-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Step 2: Set Up Your Development Environment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Step 2: Set Up Your Development Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepare-your-playground" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prepare Your Playground 🏰
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-it-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test It Out
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-understand-the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Step 3: Understand the Problem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔍 Step 3: Understand the Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#read-everything-first-no-seriously-all-of-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Read Everything First. No, Seriously. All of It.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explore-the-codebase-be-curious-like-a-cat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explore the Codebase (Be Curious Like a Cat )
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reproduce-the-issue-bug-you-better-show-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reproduce the Issue (Bug, You Better Show Yourself!)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-plan-your-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Plan Your Approach
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Plan Your Approach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break-it-down-start-with-baby-steps-you-got-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      Break It Down (Start with Baby Steps, You Got This)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-the-nearest-good-code-copying-but-better" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find the Nearest Good Code (Copying, but Better)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-down-your-plan-you-cant-remember-everything-trust-us" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write Down Your Plan (You Can’t Remember Everything, Trust Us)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-write-your-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Step 5: Write Your Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 Step 5: Write Your Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keep-it-simple-no-need-to-rewrite-the-bible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keep It Simple. No Need to Rewrite the Bible.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dont-forget-the-code-style-weve-got-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Don’t Forget the Code Style (We’ve Got Standards)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tests-write-them-theyre-like-insurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tests! Write Them! They’re Like Insurance.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-your-changes-future-you-will-thank-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Your Changes (Future You Will Thank You)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-when-you-get-stuck" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: When You Get Stuck
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 6: When You Get Stuck">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#help-yourself-first-were-all-looking-for-clues-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      Help Yourself First (We’re All Looking for Clues Here)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-ask-for-help-its-okay-to-not-have-all-the-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      When to Ask for Help (It’s Okay to Not Have All the Answers)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-submit-your-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Step 7: Submit Your Pull Request
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Step 7: Submit Your Pull Request">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#double-check-everything-youre-almost-there" class="md-nav__link">
+    <span class="md-ellipsis">
+      Double-Check Everything (You’re Almost There!) 🎯
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-a-pr-description-keep-it-clear-and-snappy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write a PR Description (Keep It Clear and Snappy) ✍️
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reviewers-theyre-your-allies-not-your-enemies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewers: They’re Your Allies, Not Your Enemies 🤝
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-after-your-pr-is-merged" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎉 Step 8: After Your PR is Merged
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎉 Step 8: After Your PR is Merged">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#celebrate-its-party-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Celebrate! (It’s Party Time) 🎉
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clean-up-no-one-likes-a-mess" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clean Up (No One Likes a Mess) 🧹
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keep-going" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keep Going! 🌱
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-problems-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Common Problems &amp; Solutions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips-for-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Pro Tips for Success
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Pro Tips for Success">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technical-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Tips:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community Tips:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="how-to-code">How to code</h1>
+<p><em>You’ve got the idea, we’ve got the road map. Let’s make this magic happen.</em></p>
+<p>So you want to contribute? You’ve come to the right place. Whether you’re a total beginner or you’ve contributed before but forgot everything, we’re going to walk you through it. This guide is like your GPS—but cooler, and without the annoying “recalculating” voice. Let’s make your first contribution the smoothest ride of your life.</p>
+<hr />
+<h2 id="step-1-find-something-that-interests-you">Step 1: Find Something That Interests You</h2>
+<h3 id="browse-the-issues-its-like-online-shoppingbut-free">Browse the Issues (It’s Like Online Shopping—But Free!)</h3>
+<p>We’ve got issues, but don’t worry, they’re the fun kind. You know, the ones that need fixing! Pick a label that sounds like your jam:</p>
+<ul>
+<li><strong>Good first issues:</strong> <a href="https://github.com/comfort-mode-toolkit/cm-hub/labels/good-first-issue">github.com/comfort-mode-toolkit/cm-hub/labels/good-first-issue</a></li>
+<li><strong>Bug fixes:</strong> <a href="https://github.com/comfort-mode-toolkit/cm-hub/labels/bug">github.com/comfort-mode-toolkit/cm-hub/labels/bug</a></li>
+<li><strong>Feature requests:</strong> <a href="https://github.com/comfort-mode-toolkit/cm-hub/labels/enhancement">github.com/comfort-mode-toolkit/cm-hub/labels/enhancement</a></li>
+</ul>
+<h3 id="what-should-you-pick">What Should You Pick?</h3>
+<ul>
+<li><strong>Clear description:</strong> Can you read it and understand what needs to be done without decoding hieroglyphs?</li>
+<li><strong>Your skill level:</strong> Is it within your abilities? If not, no shame. Go learn it and come back later.</li>
+<li><strong>Active discussion:</strong> If the comments section is lively, you know you’re in good hands.</li>
+</ul>
+<h3 id="claim-your-issue">Claim Your Issue! 🏁</h3>
+<p>Don’t just dive in like a mad scientist in a lab. <strong>Comment first</strong>. Something casual like:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Hey folks! I’d love to give this a go. It’s my first time contributing, so I might need some hand-holding. Where should I start looking in the code? 
+</span></code></pre></div>
+<p>And wait for some kind soul to point you in the right direction. (You’re not <em>really</em> alone, promise.)</p>
+<hr />
+<h2 id="step-2-set-up-your-development-environment">⚙️ Step 2: Set Up Your Development Environment</h2>
+<h3 id="prepare-your-playground">Prepare Your Playground 🏰</h3>
+<p>You’ll need to set up your dev environment. Don’t worry, it’s not as bad as it sounds. You can checkout detailed guide here - <a href="https://comfort-mode-toolkit.github.io/wiki/tech-setup.md">tech-setup.md</a> </p>
+<p>Here’s the abridged version:</p>
+<ol>
+<li><strong>Fork the repo</strong> – Copy it to your GitHub account. It’s like getting your own pizza instead of fighting over the last slice.</li>
+<li><strong>Clone your fork</strong> – Get that code onto your machine, because you’re about to change the world with it.</li>
+<li><strong>Install dependencies</strong> – All the little packages the project needs to run. Don’t skip this. Your computer needs them.</li>
+<li><strong>Run the project locally</strong> – Is it working? Great, now keep it that way.</li>
+<li><strong>Create a new branch</strong> – This is your personal work zone. Don’t mess with the main branch—it’s like the holy grail of the repo. Protect it at all costs.</li>
+</ol>
+<h3 id="test-it-out">Test It Out</h3>
+<p>Test it. Run the project. Make sure it actually runs. If it doesn’t, we’re not even at the fun part yet. Let’s fix that first.</p>
+<hr />
+<h2 id="step-3-understand-the-problem">🔍 Step 3: Understand the Problem</h2>
+<h3 id="read-everything-first-no-seriously-all-of-it">Read Everything First. No, Seriously. All of It.</h3>
+<ul>
+<li><strong>Issue description:</strong> Can you explain it to a friend? No? Then keep reading.</li>
+<li><strong>Comments:</strong> Is anyone else’s idea of a fix better than yours? Don’t be afraid to borrow from others!</li>
+<li><strong>Related issues:</strong> Sometimes, issues are like the five stages of grief. They’re connected in ways you can’t even imagine. (But seriously, check for related issues.)</li>
+</ul>
+<h3 id="explore-the-codebase-be-curious-like-a-cat">Explore the Codebase (Be Curious Like a Cat )</h3>
+<p>You don’t need to understand everything (ain’t nobody got time for that). Focus on where the bug lives. It’s like playing detective, but cooler.</p>
+<ul>
+<li><strong>Look for files</strong> that might be involved in the issue.</li>
+<li><strong>Check out the tests</strong> (yes, they’re important). Are there any related to your issue? Great, run them!</li>
+</ul>
+<h3 id="reproduce-the-issue-bug-you-better-show-yourself">Reproduce the Issue (Bug, You Better Show Yourself!)</h3>
+<ul>
+<li>Follow the steps in the issue. Can you break it? Great, you’re halfway there.</li>
+<li>Take notes on exactly what happens when things go wrong. If you can’t reproduce it, comment and ask for clarification. Your teammates will be thankful.</li>
+</ul>
+<hr />
+<h2 id="step-4-plan-your-approach">Step 4: Plan Your Approach</h2>
+<h3 id="break-it-down-start-with-baby-steps-you-got-this">Break It Down (Start with Baby Steps, You Got This)</h3>
+<p>Don’t try to fix everything at once. Start small. Chip away at the problem, like a sculptor with a tiny chisel. Can you fix just part of it? Maybe fix that part first!</p>
+<h3 id="find-the-nearest-good-code-copying-but-better">Find the Nearest Good Code (Copying, but Better)</h3>
+<ul>
+<li>Has anyone else done something similar? Look for patterns in the codebase and follow them.</li>
+<li>If something works, don’t reinvent the wheel. Just add your own stylish rims.</li>
+</ul>
+<h3 id="write-down-your-plan-you-cant-remember-everything-trust-us">Write Down Your Plan (You Can’t Remember Everything, Trust Us)</h3>
+<p>Before you start, comment on the issue and share your game plan. It’ll look something like this:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Here’s how I’m going to tackle this:
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>1. [Step 1]
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>2. [Step 2]
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>3. [Step 3]
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>Does that seem reasonable? Am I missing something? Let me know!
+</span></code></pre></div>
+<p>Don’t just run off into the wild. Wait for feedback. Better safe than sorry!</p>
+<hr />
+<h2 id="step-5-write-your-code">💻 Step 5: Write Your Code</h2>
+<h3 id="keep-it-simple-no-need-to-rewrite-the-bible">Keep It Simple. No Need to Rewrite the Bible.</h3>
+<ul>
+<li><strong>Small, focused commits.</strong> It’s like building a house with a few bricks at a time.</li>
+<li><strong>Commit messages:</strong> “Fixed bug” is not a message. “Fixed button alignment on mobile” is. Be specific.</li>
+</ul>
+<h3 id="dont-forget-the-code-style-weve-got-standards">Don’t Forget the Code Style (We’ve Got Standards)</h3>
+<p>Look at the existing code. Mimic it. Follow the formatting, naming conventions, and organization. Think of it like dressing for a job interview. You don’t want to show up in flip-flops.</p>
+<h3 id="tests-write-them-theyre-like-insurance">Tests! Write Them! They’re Like Insurance.</h3>
+<p>Check if the project already has a test suite (it should). Write tests to check that your changes work and that you didn’t break something else. It’s like adding a safety net—because no one likes to fall.</p>
+<h3 id="document-your-changes-future-you-will-thank-you">Document Your Changes (Future You Will Thank You)</h3>
+<p>You know the drill: comments, docstrings, updating the README if you added a cool feature. If you change something, <strong>document it</strong>. It’ll help everyone who comes after you (including your future self, who’ll forget all this in a month).</p>
+<hr />
+<h2 id="step-6-when-you-get-stuck">Step 6: When You Get Stuck</h2>
+<h3 id="help-yourself-first-were-all-looking-for-clues-here">Help Yourself First (We’re All Looking for Clues Here)</h3>
+<ol>
+<li><strong>Read the error message</strong> carefully. It’s like your code speaking to you. Listen to it.</li>
+<li><strong>Google the error</strong> (but don’t click the first Stack Overflow result, trust us).</li>
+<li><strong>Check the docs</strong>—they’re not just there to look pretty.</li>
+<li><strong>Ask AI for help</strong> (ChatGPT, anyone?).</li>
+</ol>
+<h3 id="when-to-ask-for-help-its-okay-to-not-have-all-the-answers">When to Ask for Help (It’s Okay to Not Have All the Answers)</h3>
+<p>If you’re stuck, it’s okay! Here’s how to ask for help:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Hey team! I’m stuck on [specific part] and I’m getting this error: [paste error].
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>Here’s what I tried:
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>- [Thing 1]
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>- [Thing 2]
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>Any ideas?  
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>Here’s the relevant code: [link to branch or paste snippet]
+</span></code></pre></div>
+<hr />
+<h2 id="step-7-submit-your-pull-request">🚀 Step 7: Submit Your Pull Request</h2>
+<h3 id="double-check-everything-youre-almost-there">Double-Check Everything (You’re Almost There!) 🎯</h3>
+<ul>
+<li>Does your code fix the issue?</li>
+<li>Did you run the tests?</li>
+<li>Does it break anything else?</li>
+<li>Is everything formatted nicely? If the answer is “no” to any of those, go back and fix it.</li>
+</ul>
+<h3 id="write-a-pr-description-keep-it-clear-and-snappy">Write a PR Description (Keep It Clear and Snappy) ✍️</h3>
+<p>Here’s a template for you:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>## What This Fixes
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Fixes #[issue number]
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>## What Changed
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>- [Change 1]
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>- [Change 2]
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>## How to Test
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>1. [Test step 1]
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>2. [Test step 2]
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>## Screenshots (if applicable)
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>[Before and after images]
+</span></code></pre></div>
+<h3 id="reviewers-theyre-your-allies-not-your-enemies">Reviewers: They’re Your Allies, Not Your Enemies 🤝</h3>
+<p>If reviewers ask for changes, don’t panic. Ask questions, make changes, and push updates. They’re not picking on you—they’re making your code better!</p>
+<hr />
+<h2 id="step-8-after-your-pr-is-merged">🎉 Step 8: After Your PR is Merged</h2>
+<h3 id="celebrate-its-party-time">Celebrate! (It’s Party Time) 🎉</h3>
+<p>Pop the confetti! You just contributed to open-source and fixed a problem for real people. Well done, you!</p>
+<h3 id="clean-up-no-one-likes-a-mess">Clean Up (No One Likes a Mess) 🧹</h3>
+<ul>
+<li>Delete your branch.</li>
+<li>Pull the latest</li>
+</ul>
+<p>changes to <code>main</code>. Clean slate, new issue, let’s go!</p>
+<h3 id="keep-going">Keep Going! 🌱</h3>
+<ul>
+<li>Find another issue to fix.</li>
+<li>Answer questions for other newbies.</li>
+<li>Keep contributing and keep learning. The world needs more coders like you!</li>
+</ul>
+<hr />
+<h3 id="common-problems-solutions">🎯 Common Problems &amp; Solutions</h3>
+<ul>
+<li><strong>Can’t get the project running?</strong> Check your dependencies. Ask for help if you’re stuck.</li>
+<li><strong>Your changes broke something?</strong> Run tests. Debug. Don’t panic.</li>
+<li><strong>Not sure about feedback?</strong> Ask for specifics. We’ve all been there.</li>
+</ul>
+<hr />
+<h2 id="pro-tips-for-success">💡 Pro Tips for Success</h2>
+<h3 id="technical-tips">Technical Tips:</h3>
+<ul>
+<li><strong>Commit early and often.</strong> Small commits are your best friends.</li>
+<li><strong>Test incrementally.</strong> Don’t wait until the last minute to test.</li>
+<li><strong>Error messages? Read them aloud.</strong> You’d be surprised what you catch.</li>
+</ul>
+<h3 id="community-tips">Community Tips:</h3>
+<ul>
+<li><strong>Be patient with maintainers.</strong> They’ve got lives outside GitHub.</li>
+<li><strong>Be specific</strong> when asking for help.</li>
+<li><strong>Thank people.</strong> It’s a little thing, but it goes a long way.</li>
+</ul>
+<hr />
+<p>And that’s it, rockstar! You’re ready to contribute like a pro. 🌟 Welcome to the open-source community—you’re gonna do great things.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
