@@ -1,7 +1,7 @@
 ## The Team Behind Comfort Commons
 
 #### How This All Started
-Hey, I’m Lalitha! I kicked off Comfort Commons because I wanted to build something that felt just right. It started with me trying to create a site that was ✨visually sleek✨—you know, the kind with smooth animations that just wow you. I thought that was the secret sauce to great web design.
+Hey, I’m Lalitha! I kicked off Comfort Commons because I wanted to build something that felt just right. It started with me trying to create a site that was visually sleek—you know, the kind with smooth animations that just wow you. I thought that was the secret sauce to great web design.
 
 Then, someone pointed out that I was missing something huge: alternative formats for people who couldn’t access certain content types. That simple comment completely changed my perspective. It was a lightbulb moment—**how easy it is to forget that not everyone experiences the web the same way.**
 

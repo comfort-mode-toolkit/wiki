@@ -1,28 +1,28 @@
-# Research Hub 🔬
+# Research Hub 
 *Where curious minds gather to figure out what actually works (and what definitely doesn't)*
 
-Welcome to our research corner of the forest! This is where we dig into the real questions, test our assumptions, and occasionally discover that what we thought we knew was completely wrong. Think of it as our community's investigation headquarters—where every 🧙 Mage quest begins.
+Welcome to our research corner of the forest! This is where we dig into the real questions, test our assumptions, and occasionally discover that what we thought we knew was completely wrong. Think of it as our community's investigation headquarters—where every  Mage quest begins.
 
-**Not here for deep dives?** That's perfectly fine! Each section has a quick summary so you can grab what you need and get back to building cool stuff with the ⚔️ Warriors.
+**Not here for deep dives?** That's perfectly fine! Each section has a quick summary so you can grab what you need and get back to building cool stuff with the  Warriors.
 
 ## What Counts as "Research" in Our Commons?
 We're not writing papers to impress professors in ivory towers. We're collecting insights that help real developers, designers, and product folks build experiences that actually work for people. Think of it as "detective work that matters to folks doing real work in the world."
 
-Whether you're a natural 🧙 Mage who loves diving deep, a 🏹 Ranger who discovers things while exploring, or any other role curious about understanding problems better—this is your playground.
+Whether you're a natural  Mage who loves diving deep, a  Ranger who discovers things while exploring, or any other role curious about understanding problems better—this is your playground.
 
 ---
 
-## 🌟 Getting Started on Your Research Adventure
+##  Getting Started on Your Research Adventure
 
 ### New to the Research Quests?
 **Start here:** Browse our [current research expeditions](https://github.com/comfort-mode-toolkit/cm-hub/issues) to see what mysteries we're actively solving.
 
 **How your quest works:**
-1. **🗺️ Scout the terrain:** Look through issues for topics that spark your curiosity
-2. **🏕️ Claim your expedition:** Comment on an unassigned issue to join that quest
-3. **🧭 Chart your own course:** If you see a different angle, create a new expedition and reference the original
-4. **📡 Send signals:** Update your progress by the end of week 1 (we worry if our adventurers go quiet!)
-5. **🎁 Share your discoveries:** Submit your research following our friendly templates
+1. ** Scout the terrain:** Look through issues for topics that spark your curiosity
+2. ** Claim your expedition:** Comment on an unassigned issue to join that quest
+3. ** Chart your own course:** If you see a different angle, create a new expedition and reference the original
+4. ** Send signals:** Update your progress by the end of week 1 (we worry if our adventurers go quiet!)
+5. ** Share your discoveries:** Submit your research following our friendly templates
 
 ### Quest Duration Guide
 | Quest Type | Typical Adventure Length | Week 1 Signal Required |
@@ -46,7 +46,7 @@ Whether you're a natural 🧙 Mage who loves diving deep, a 🏹 Ranger who disc
 
 ---
 
-## 📚 Knowledge Gathering Expeditions
+##  Knowledge Gathering Expeditions
 *"What does the actual science say about [insert mystery]?"*
 
 **The Mission:** Academic papers are often locked away like treasure behind paywalls, written in ancient language that requires a decoder ring. We read them so you don't have to, then translate the useful gems into language that actual humans can understand and use.
@@ -57,7 +57,7 @@ Whether you're a natural 🧙 Mage who loves diving deep, a 🏹 Ranger who disc
 - Myth-busting adventures
 - Evidence for/against popular practices
 
-**🧙 Mage Quest Template:**
+** Mage Quest Template:**
 ```
 # What the Wise Scholars Say About [Topic]
 
@@ -86,7 +86,7 @@ What should our community investigate next?
 
 ---
 
-## 🎯 Field Studies & Community Explorations
+##  Field Studies & Community Explorations
 *"What's actually happening out there in the wild?"*
 
 **The Mission:** Deep dives into real experiences from specific communities or user groups around accessibility challenges. We venture into forums, communities, and real-world spaces to understand what people are actually dealing with day-to-day.
@@ -97,7 +97,7 @@ What should our community investigate next?
 - User group deep-dives ("Mobile users with motor differences and touch targets")
 - Cross-platform accessibility expeditions
 
-**🏹 Ranger Exploration Template:**
+** Ranger Exploration Template:**
 ```
 # Field Study: [Community/Adventurers] and [Accessibility Challenge]
 
@@ -136,7 +136,7 @@ What should we investigate next?
 
 ---
 
-## 🛠️ Tool Discovery Expeditions
+##  Tool Discovery Expeditions
 *"Mapping the complete landscape of what's already out there"*
 
 **The Mission:** Comprehensive explorations of existing tools, libraries, and solutions in specific accessibility domains. We map out entire ecosystems so you can see what exists, what's missing, and what plays nicely together.
@@ -147,7 +147,7 @@ What should we investigate next?
 - "Do these tools work together?" compatibility studies
 - Gap analyses across tool categories
 
-**🏹 Ranger + 🧙 Mage Collaborative Template:**
+** Ranger +  Mage Collaborative Template:**
 ```
 # Tool Expedition: [Domain/Category] Accessibility Helpers
 
@@ -193,7 +193,7 @@ Who should use what tools and when
 
 ---
 
-## 💡 Quest Proposals
+##  Quest Proposals
 *"Questions we should definitely investigate"*
 
 **The Mission:** Ideas for studies, surveys, or investigations that would help our whole community. These can come from any adventurer—you don't need fancy credentials to spot a good mystery worth solving.
@@ -241,7 +241,7 @@ How people can contribute to this investigation
 
 ---
 
-## ⚙️ Building Blueprints
+##  Building Blueprints
 *"Here's how we could actually build this thing"*
 
 **The Mission:** Implementation ideas that spring from our research discoveries. The bridge between "we learned X" and "so let's build Y to help people."
@@ -252,7 +252,7 @@ How people can contribute to this investigation
 - Algorithm concepts
 - "Someone should definitely build this" suggestions
 
-**⚔️ Warrior + 🧙 Mage Collaboration Template:**
+** Warrior +  Mage Collaboration Template:**
 ```
 # Building Blueprint: [Solution Name]
 
@@ -291,7 +291,7 @@ What kind of help do we need to make this real?
 
 ---
 
-## 🌟 Quality Standards (Not Academic Intimidation!)
+##  Quality Standards (Not Academic Intimidation!)
 
 ### What Makes Great Research in Our Commons
 - **Clarity over complexity:** If a curious 12-year-old can't understand your summary, let's make it clearer
@@ -314,17 +314,17 @@ What kind of help do we need to make this real?
 
 ---
 
-## 🔍 Current Quest Priorities
+##  Current Quest Priorities
 *The mysteries we're most curious about right now*
 
-1. **🌊 Vestibular challenges and color triggers** (sparked by our Reddit community exploration)
-2. **🛡️ What stops developers from adopting accessibility tools** 
-3. **🌈 How color perception differs across cultures**
-4. **⚡ Performance impact of real-time accessibility adjustments**
+1. ** Vestibular challenges and color triggers** (sparked by our Reddit community exploration)
+2. ** What stops developers from adopting accessibility tools** 
+3. ** How color perception differs across cultures**
+4. ** Performance impact of real-time accessibility adjustments**
 
 ---
 
-## 📖 Terms We Can't Avoid (But We'll Explain Them!)
+##  Terms We Can't Avoid (But We'll Explain Them!)
 
 **The Rule:** If there's a simpler way to say it, we use that instead. Only including terms that are unavoidable in this work.
 
@@ -336,4 +336,4 @@ What kind of help do we need to make this real?
 
 **Questions about contributing research?** Open an issue and tag it with `research-question`. We're here to help fellow adventurers, not guard the gates to knowledge.
 
-*Making accessibility research actually accessible, one plain-English explanation at a time—because the best discoveries are the ones everyone can understand and use* 🌈🔬✨
+*Making accessibility research actually accessible, one plain-English explanation at a time—because the best discoveries are the ones everyone can understand and use* 

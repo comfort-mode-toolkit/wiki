@@ -1,17 +1,17 @@
-# Research How-To 🔍
+# Research How-To 
 *Step-by-step guides for each type of research quest*
 
 Never done research before? No problem. These guides assume you're starting from zero and walk you through each type of investigation step by step.
 
 ---
 
-## 📚 Knowledge Gathering (Literature Reviews)
+##  Knowledge Gathering (Literature Reviews)
 *"What does the research actually say about this topic?"*
 
 ### Step 1: Define Your Question (Week 1, Day 1-2)
 **Pick something specific:**
-- ❌ Too broad: "accessibility and colors"
-- ✅ Just right: "do high contrast color schemes trigger vestibular symptoms?"
+-  Too broad: "accessibility and colors"
+-  Just right: "do high contrast color schemes trigger vestibular symptoms?"
 
 **Write it down:**
 - What exactly do you want to know?
@@ -78,7 +78,7 @@ Never done research before? No problem. These guides assume you're starting from
 
 ---
 
-## 🎯 Field Studies (Community Explorations)
+##  Field Studies (Community Explorations)
 *"What are people actually experiencing in real life?"*
 
 ### Step 1: Pick Your Community (Day 1-2)
@@ -162,14 +162,14 @@ Never done research before? No problem. These guides assume you're starting from
 
 ---
 
-## 🛠️ Tool Discovery (Ecosystem Mapping)
+##  Tool Discovery (Ecosystem Mapping)
 *"What tools already exist and how well do they work?"*
 
 ### Step 1: Define Your Territory (Day 1-2)
 **Pick a specific domain:**
-- ❌ Too broad: "accessibility tools"
-- ✅ Just right: "color contrast checking tools"
-- ✅ Also good: "React accessibility testing libraries"
+-  Too broad: "accessibility tools"
+-  Just right: "color contrast checking tools"
+-  Also good: "React accessibility testing libraries"
 
 ### Step 2: Find All the Tools (Week 1)
 **Search everywhere:**
@@ -235,7 +235,7 @@ Never done research before? No problem. These guides assume you're starting from
 
 ---
 
-## 💡 Research Proposals
+##  Research Proposals
 *"Here's a question we should investigate"*
 
 ### Step 1: Identify the Mystery (Any time)
@@ -277,7 +277,7 @@ Never done research before? No problem. These guides assume you're starting from
 
 ---
 
-## ⚙️ Tech Proposals
+##  Tech Proposals
 *"Here's how we could build a solution"*
 
 ### Step 1: Start With a Problem
@@ -324,7 +324,7 @@ Never done research before? No problem. These guides assume you're starting from
 
 ---
 
-## 🆘 Getting Help
+##  Getting Help
 
 **Stuck on any step?**
 - Comment on research issues
@@ -345,4 +345,4 @@ Never done research before? No problem. These guides assume you're starting from
 
 **Remember:** Research is about curiosity and helping people, not impressing academics. Start simple, ask questions, and improve as you go.
 
-*Every expert was once a beginner who asked good questions* 🌱
+*Every expert was once a beginner who asked good questions* 

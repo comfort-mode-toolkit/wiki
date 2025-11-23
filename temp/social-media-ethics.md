@@ -1,4 +1,4 @@
-# Social Media Ethics Guide 🌐
+# Social Media Ethics Guide 
 *How to gather wisdom without violating trust or privacy*
 
 ## The Sacred Rule of Our Commons
@@ -10,9 +10,9 @@ Think of this as learning to be a respectful forest visitor: you can observe the
 
 ---
 
-## 🚦 The Magic Traffic Light System
+##  The Magic Traffic Light System
 
-### 🔴 RED LIGHT - Never Quote Without Explicit Permission
+###  RED LIGHT - Never Quote Without Explicit Permission
 - **Direct quotes with any identifying breadcrumbs** (usernames, handles, unique life details)
 - **Screenshots showing usernames or profile info**
 - **Content from private spaces or closed communities** (even if you're a member)
@@ -34,47 +34,47 @@ Think of this as learning to be a respectful forest visitor: you can observe the
 
 ---
 
-## 🗺️ Your Quest Planning Process
+##  Your Quest Planning Process
 
-### 🌅 Before You Start Your Information Gathering
+###  Before You Start Your Information Gathering
 
-**1. 🎯 Define Your Mission**
+**1.  Define Your Mission**
 - What specific mystery are you trying to solve?
 - How will this wisdom help fellow builders and creators?
 - Could you answer this question without using individual posts?
 
-**2. 🛤️ Choose Your Path**
-- **🌫️ Pattern Recognition:** General themes (no direct quotes)
-- **🔮 Wisdom Synthesis:** Anonymous insights (paraphrased)
-- **💎 Direct Wisdom Sharing:** Quotes with permission (rare, special occasions only)
+**2.  Choose Your Path**
+- ** Pattern Recognition:** General themes (no direct quotes)
+- ** Wisdom Synthesis:** Anonymous insights (paraphrased)
+- ** Direct Wisdom Sharing:** Quotes with permission (rare, special occasions only)
 
-**3. 🛡️ Set Your Protective Boundaries**
+**3.  Set Your Protective Boundaries**
 - Which communities will you respectfully observe?
 - What time period feels appropriate?
 - What sacred territories are off-limits? (personal medical info, crisis situations, etc.)
 
-### 🏞️ While Gathering Community Wisdom
+###  While Gathering Community Wisdom
 
-**📋 Document Your Journey:**
+** Document Your Journey:**
 - Platform and community visited
 - Date range explored
 - Search terms or keywords used
 - Total posts observed vs. posts that informed your understanding
 
-**🚨 Red Flag Alert Check:**
+** Red Flag Alert Check:**
 - Is this person in distress or crisis? → Skip entirely, offer resources if appropriate
 - Does this identify someone uniquely? → Anonymize completely or pass by
 - Would I be comfortable if this were my post? → If no, don't use
 
-### 🎭 For Anonymous Wisdom Sharing
+###  For Anonymous Wisdom Sharing
 
-**🌟 Excellent Approach:**
+** Excellent Approach:**
 > "Community members in accessibility spaces report that high contrast modes can trigger headaches and vestibular symptoms. Several discussions highlighted specific color combinations being particularly challenging during longer browsing sessions."
 
-**⚠️ Definitely Avoid This:**
+** Definitely Avoid This:**
 > "User RedditUser123 posted in r/accessibility that 'high contrast gives me migraines and makes me dizzy, especially the blue-white combinations.' This was supported by CommentReply456 who said..."
 
-### 💎 For Direct Wisdom Quotes (Rare Sacred Occasions Only)
+###  For Direct Wisdom Quotes (Rare Sacred Occasions Only)
 
 **When it might be justified:**
 - The exact words contain crucial technical insight that paraphrasing would lose
@@ -82,15 +82,15 @@ Think of this as learning to be a respectful forest visitor: you can observe the
 - It's already been widely shared and attributed elsewhere
 - It demonstrates a specific point that general wisdom can't capture
 
-**🗝️ Required Steps for Permission:**
-1. **📨 Reach out directly** via platform messaging
-2. **🌟 Explain your quest** and how you'd like to honor their wisdom
-3. **🎫 Ask explicit permission** - don't assume silence means yes
-4. **🎭 Offer anonymity** as the comfortable default
-5. **👁️ Give them final approval** over how you use their words
-6. **🛡️ Honor "no"** gracefully - find another path to make your point
+** Required Steps for Permission:**
+1. ** Reach out directly** via platform messaging
+2. ** Explain your quest** and how you'd like to honor their wisdom
+3. ** Ask explicit permission** - don't assume silence means yes
+4. ** Offer anonymity** as the comfortable default
+5. ** Give them final approval** over how you use their words
+6. ** Honor "no"** gracefully - find another path to make your point
 
-**📜 Respectful Contact Template:**
+** Respectful Contact Template:**
 ```
 Hi [username],
 
@@ -106,22 +106,22 @@ Thanks for sharing your knowledge with the community!
 
 ---
 
-## 🎭 Anonymization Magic (Making People Invisible in the Best Way)
+##  Anonymization Magic (Making People Invisible in the Best Way)
 
-### ✨ Remove All Identifying Breadcrumbs
+###  Remove All Identifying Breadcrumbs
 - **Usernames and handles** - obviously
 - **Platform-specific clues** ("this subreddit," "our Discord server")
 - **Timestamps** that could help someone track down the original post
 - **Unique circumstances** that make someone identifiable in their community
 - **Cross-references** to other posts or comments by the same person
 
-### 🔮 Scrub Personal Details
+###  Scrub Personal Details
 - **Medical conditions** - generalize ("vestibular challenges" not "Ménière's disease")
 - **Locations** - remove or generalize ("a major city" not "Portland, Oregon")
 - **Jobs** - generalize unless crucial ("developer" not "senior React developer at Google")
 - **Demographics** - remove unless directly relevant to the accessibility question
 
-### 🌫️ Generalize the Setting
+###  Generalize the Setting
 **Instead of:** "In r/vestibular, a user posted..."
 **Use:** "In online communities focused on vestibular disorders, members report..."
 
@@ -130,23 +130,23 @@ Thanks for sharing your knowledge with the community!
 
 ---
 
-## 📚 Documenting Your Sources (The Visible and Invisible Records)
+##  Documenting Your Sources (The Visible and Invisible Records)
 
-### 🗄️ For Your Internal Quest Log (Never Public)
+###  For Your Internal Quest Log (Never Public)
 Keep detailed records for accountability and fact-checking:
 - Original URLs or screenshots (for verification only)
 - Date collected
 - Platform/community source
 - Permission status (if any)
 
-### 🌟 For Public Research (What You Share)
-**🌐 General attribution only:**
+###  For Public Research (What You Share)
+** General attribution only:**
 - "Based on exploration of online accessibility communities"
 - "Community discussions from [date range]"
 - "Feedback from multiple platforms and forums"
 - "Analysis of [number] discussions across [number] communities"
 
-**🚫 Never include:**
+** Never include:**
 - Specific URLs or links
 - Platform names if they could lead to identification
 - Usernames, handles, or unique identifiers
@@ -154,50 +154,50 @@ Keep detailed records for accountability and fact-checking:
 
 ---
 
-## ⚖️ Legal and Ethical Considerations (The Serious Magic)
+##  Legal and Ethical Considerations (The Serious Magic)
 
-### 📜 Fair Use vs. Ethical Use
+###  Fair Use vs. Ethical Use
 **Legal permission doesn't equal ethical clearance.** Even if something is technically allowed, it might not be kind. Our commons operates by higher standards than legal minimums.
 
-### 🏛️ Platform Terms of Service
-- **📋 Check platform policies** about research and data collection
-- **⛔ Some platforms prohibit** certain types of data gathering
-- **🎓 Academic fair use** might not cover advocacy or community research
+###  Platform Terms of Service
+- ** Check platform policies** about research and data collection
+- ** Some platforms prohibit** certain types of data gathering
+- ** Academic fair use** might not cover advocacy or community research
 
-### 🌍 International Considerations
-- **🇪🇺 GDPR and privacy laws** protect users regardless of where you're based
-- **🌈 Different cultural norms** around privacy and consent
-- **❓ When uncertain, ask** - it's better than assuming
+###  International Considerations
+- ** GDPR and privacy laws** protect users regardless of where you're based
+- ** Different cultural norms** around privacy and consent
+- ** When uncertain, ask** - it's better than assuming
 
 ---
 
-## 🔍 Special Territories (Extra Care Required)
+##  Special Territories (Extra Care Required)
 
-### 💚 Crisis or Mental Health Content
-**🛑 Don't use it. Ever.**
+###  Crisis or Mental Health Content
+** Don't use it. Ever.**
 - If someone is in distress, they can't meaningfully consent to research use
 - Focus on your research mission, not providing individual help (direct them to appropriate resources)
 - Mental health discussions require the strongest protective magic
 
-### 🔧 Technical vs. Personal Content
+###  Technical vs. Personal Content
 **Technical discussions** (about code, tools, bugs) might need less protection than personal experiences, but still:
 - Anonymize by default
 - Consider impact on someone's professional reputation
 - Be extra careful with criticism of specific tools or companies
 
-### 🗑️ Deleted or Edited Content
+###  Deleted or Edited Content
 **If someone deleted their post:** They removed it from public view - honor that choice
 **If someone edited their post:** Use the current version or skip it entirely
 
-### 🏘️ Community-Specific Norms
+###  Community-Specific Norms
 Different communities have different comfort levels:
-- **🏥 Medical communities:** Maximum privacy protection needed
-- **💼 Professional spaces:** Consider career impact of any reference
-- **💚 Support communities:** Highest bar for consent and anonymization
+- ** Medical communities:** Maximum privacy protection needed
+- ** Professional spaces:** Consider career impact of any reference
+- ** Support communities:** Highest bar for consent and anonymization
 
 ---
 
-## ✅ Quality Magic Check Before Publishing
+##  Quality Magic Check Before Publishing
 
 **Before sharing any research using community wisdom:**
 
@@ -211,17 +211,17 @@ Different communities have different comfort levels:
 
 ---
 
-## 🚨 When Things Go Sideways (Damage Control Magic)
+##  When Things Go Sideways (Damage Control Magic)
 
-### 😰 If Someone Objects After You've Published
-**🏃‍♀️ Immediate response:**
+###  If Someone Objects After You've Published
+**‍ Immediate response:**
 1. Take their concern seriously and listen fully
 2. Remove the content if possible
 3. Apologize sincerely and explain what you'll do differently
 4. Update your research process based on their feedback
 
-### 😬 If You Realize You Made a Mistake
-**🪞 Own it completely:**
+###  If You Realize You Made a Mistake
+** Own it completely:**
 1. Remove problematic content immediately
 2. Contact affected individuals if possible and appropriate
 3. Document what went wrong to prevent future issues
@@ -229,9 +229,9 @@ Different communities have different comfort levels:
 
 ---
 
-## 📋 Templates and Examples for Your Quest
+##  Templates and Examples for Your Quest
 
-### 🗂️ Research Documentation Template
+###  Research Documentation Template
 ```markdown
 ## Community Wisdom Sources
 
@@ -250,7 +250,7 @@ Different communities have different comfort levels:
 *No individual posts were directly quoted. All insights are carefully aggregated and anonymized to protect community members' privacy.*
 ```
 
-### 📨 Permission Request Templates
+###  Permission Request Templates
 
 **For Direct Quote Permission:**
 ```
@@ -289,19 +289,19 @@ Thanks for creating such a thoughtful community!
 
 ---
 
-## 🎯 Your Quick Reference Guide
+##  Your Quick Reference Guide
 
-**🌟 Default approach:** Anonymous paraphrasing and theme synthesis only
-**💎 Direct quotes:** Explicit permission required, save for truly special cases
-**🔮 Always remove:** Usernames, handles, unique identifying details
-**🗄️ Always keep private:** Original sources, URLs, internal documentation
-**📋 Always check:** Platform policies, community norms, legal requirements
-**🛡️ Always honor:** "No" means no, deleted content stays deleted
+** Default approach:** Anonymous paraphrasing and theme synthesis only
+** Direct quotes:** Explicit permission required, save for truly special cases
+** Always remove:** Usernames, handles, unique identifying details
+** Always keep private:** Original sources, URLs, internal documentation
+** Always check:** Platform policies, community norms, legal requirements
+** Always honor:** "No" means no, deleted content stays deleted
 
-**🤔 When uncertain:** More privacy protection is always better than less. Ask yourself - "Would I want my comment used this way?"
+** When uncertain:** More privacy protection is always better than less. Ask yourself - "Would I want my comment used this way?"
 
 ---
 
-*Making research ethical and respectful, one anonymized insight at a time—because wisdom sharing should protect the wise* 🌈🔒✨
+*Making research ethical and respectful, one anonymized insight at a time—because wisdom sharing should protect the wise* 
 
 **Questions about gathering community wisdom ethically?** Create an issue tagged `ethics-social-media` and our community will help you find the most respectful path forward.

@@ -114,7 +114,7 @@ Most accessibility work feels heavy—full of legal requirements, technical stan
 
 We tried something different: **What if contributing to accessibility felt like play?** What if it was about becoming kinder to ourselves while learning to see beyond our own needs?
 
-Turns out, when people feel safe and curious instead of judged and overwhelmed, they build better solutions. Who knew? 🎭
+Turns out, when people feel safe and curious instead of judged and overwhelmed, they build better solutions. Who knew? 
 
 ---
 
@@ -122,26 +122,26 @@ Turns out, when people feel safe and curious instead of judged and overwhelmed, 
 
 We use playful metaphors—like RPGs—not to be childish, but to make space for imagination, safety, and belonging in open source work.
 
-### 🦉 Animals = Your Superpowers (Perspectives, Senses, Needs)
+###  Animals = Your Superpowers (Perspectives, Senses, Needs)
 Pick a creature that represents your perspective, your needs, or just what feels right:
 
-- **🦉 Owls:** See details others miss, care about visual clarity and contrast
-- **🐬 Dolphins:** Hear what others might not, tune the world for clear sound and calm  
-- **🦌 Deer:** Move gently, know the best paths, care about easy navigation
-- **🦊 Foxes:** Clever problem-solvers, make things simple for minds that work differently
-- **🐻 Bears:** Know when the world is too much, create cozy, calm spaces
-- **🐙 Octopuses:** Adaptable, embrace many ways of thinking, connect lots of ideas
+- ** Owls:** See details others miss, care about visual clarity and contrast
+- ** Dolphins:** Hear what others might not, tune the world for clear sound and calm  
+- ** Deer:** Move gently, know the best paths, care about easy navigation
+- ** Foxes:** Clever problem-solvers, make things simple for minds that work differently
+- ** Bears:** Know when the world is too much, create cozy, calm spaces
+- ** Octopuses:** Adaptable, embrace many ways of thinking, connect lots of ideas
 
 Your animal isn't your "problem"—it's your superpower, your way of seeing the world that others might miss.
 
-### ⚔️ Roles = How You Want to Help (No One's Stuck in Just One!)
+###  Roles = How You Want to Help (No One's Stuck in Just One!)
 
-- **🧙 Mages:** Research and discover, turn findings into practical wisdom
-- **⚔️ Warriors:** Build and fix, turn ideas into working tools that protect users  
-- **📜 Sages:** Write and explain, keep knowledge alive and accessible
-- **🎨 Artisans:** Design beautiful, usable experiences
-- **🏹 Rangers:** Explore and test, report what works in the wild
-- **💚 Healers:** Care for people, keep spaces kind, help when things get rough
+- ** Mages:** Research and discover, turn findings into practical wisdom
+- ** Warriors:** Build and fix, turn ideas into working tools that protect users  
+- ** Sages:** Write and explain, keep knowledge alive and accessible
+- ** Artisans:** Design beautiful, usable experiences
+- ** Rangers:** Explore and test, report what works in the wild
+- ** Healers:** Care for people, keep spaces kind, help when things get rough
 
 Mix, match, switch roles, or invent new ones. This is your journey.
 
@@ -149,14 +149,14 @@ Mix, match, switch roles, or invent new ones. This is your journey.
 
 ## What We're Building
 
-### 🎨 [CM-Colors](https://github.com/comfort-mode-toolkit/cm-colors)
+###  [CM-Colors](https://github.com/comfort-mode-toolkit/cm-colors)
 *Our first working tool*
 
 Takes your beautiful color choices and makes tiny tweaks so everyone can read your content. Changes so small you won't notice, but your users (and accessibility scores) will love you.
 
 **Current adventure:** Researching how to balance high contrast requirements with vestibular comfort—turns out "accessible" colors can sometimes trigger dizziness. We're finding the sweet spot.
 
-### 🔬 Active Research Expeditions
+###  Active Research Expeditions
 - **Vestibular disorders and color sensitivity** (sparked by Reddit community feedback)
 - **Developer barriers to accessibility adoption** 
 - **Cross-cultural color perception**
@@ -180,22 +180,22 @@ It looks like this:
 
 ## Ready to Join Our Commons?
 
-### 🗺️ New to Open Source?
+###  New to Open Source?
 - Browse our [Current Expeditions](https://github.com/comfort-mode-toolkit/cm-hub/issues) to see what adventures are available
 - Try [CM-Colors](https://github.com/comfort-mode-toolkit/cm-colors) to see what we're about
 - Pick your animal and role—there's no wrong choice!
 
-### 🧙 Want to Research?
+###  Want to Research?
 - Check our [Research Playground](research/intro.md) for guidelines and templates
 - Look for issues tagged "research expedition" or "good first quest"
 - Your lived experience matters more than academic credentials
 
-### ⚔️ Ready to Code?
+###  Ready to Code?
 - Browse open issues in our [tool repositories](https://github.com/comfort-mode-toolkit)
 - Check our [Technical Setup Guide](tech-setup.md)
 - Jump into development discussions
 
-### 🎨 Designer or Decision Maker?
+###  Designer or Decision Maker?
 - Test our tools and tell us what breaks (or works great!)
 - Help us understand real-world design constraints
 - Connect us with users who could benefit
@@ -226,4 +226,4 @@ Let's build a more comfortable web together, one kind contribution at a time.
 
 ---
 
-*Making the web softer for everyone, through play, research, and really good tools* 🌊✨
+*Making the web softer for everyone, through play, research, and really good tools* 

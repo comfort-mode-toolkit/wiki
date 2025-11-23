@@ -24,14 +24,14 @@ For specific repo
 9. go to github to click contribute
 10. open a pr -->
 
-# Tech Setup Guide 🛠️
+# Tech Setup Guide 
 *Don't worry, it's not as scary as it sounds - we got you!*
 
 Whether you want to fix a typo or build the next amazing accessibility tool, here's how to get set up. Pick your adventure level!
 
 ---
 
-## 🌱 Level 1: Just Want to Edit Docs or Add Ideas?
+##  Level 1: Just Want to Edit Docs or Add Ideas?
 *No scary terminal commands needed!*
 
 **You just need:** A GitHub account (it's free!)
@@ -39,7 +39,7 @@ Whether you want to fix a typo or build the next amazing accessibility tool, her
 ### Quick Start:
 1. **Sign up for GitHub** at [github.com](https://github.com) if you don't have an account
 2. **Find what you want to change** - browse our repositories and find a file you want to edit
-3. **Click the pencil icon** (✏️) on any file to edit it directly in your browser
+3. **Click the pencil icon** () on any file to edit it directly in your browser
 4. **Make your changes** using the built-in editor
 5. **Scroll down and describe your changes** in the text boxes
 6. **Click "Propose changes"** - this creates what we call a "pull request"
@@ -49,7 +49,7 @@ Whether you want to fix a typo or build the next amazing accessibility tool, her
 
 ---
 
-## ⚔️ Level 2: Want to Code or Make Bigger Changes?
+##  Level 2: Want to Code or Make Bigger Changes?
 *Time to set up your development sandbox!*
 
 ### One-Time Setup (Do This Once)
@@ -193,7 +193,7 @@ git push origin main
 
 ---
 
-## 🆘 When Things Go Wrong
+##  When Things Go Wrong
 
 ### "Command not found" errors
 - **On Windows:** Make sure you checked "Add to PATH" during installation
@@ -217,7 +217,7 @@ git push origin main
 
 ---
 
-## 🧙‍♂️ Glossary
+## ‍ Glossary
 
 **Clone:** Download a copy of code from GitHub to your computer
 
@@ -239,7 +239,7 @@ git push origin main
 
 ---
 
-## 🤝 Need Help?
+##  Need Help?
 
 **Stuck on setup?** Create an issue tagged `setup-help` and we'll walk you through it.
 
@@ -251,7 +251,7 @@ git push origin main
 
 ---
 
-*Remember: Every expert was once a beginner. Every contribution makes the web a little more comfortable for someone. You've got this!* 🌟
+*Remember: Every expert was once a beginner. Every contribution makes the web a little more comfortable for someone. You've got this!* 
 
 ---
 

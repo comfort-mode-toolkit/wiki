@@ -22,7 +22,7 @@ We’ve got issues, but don’t worry, they’re the fun kind. You know, the one
 * **Your skill level:** Is it within your abilities? If not, no shame. Go learn it and come back later.
 * **Active discussion:** If the comments section is lively, you know you’re in good hands.
 
-### Claim Your Issue! 🏁
+### Claim Your Issue! 
 
 Don’t just dive in like a mad scientist in a lab. **Comment first**. Something casual like:
 
@@ -34,9 +34,9 @@ And wait for some kind soul to point you in the right direction. (You’re not *
 
 ---
 
-## ⚙️ Step 2: Set Up Your Development Environment
+##  Step 2: Set Up Your Development Environment
 
-### Prepare Your Playground 🏰
+### Prepare Your Playground 
 
 You’ll need to set up your dev environment. Don’t worry, it’s not as bad as it sounds. You can checkout detailed guide here - [tech-setup.md](https://comfort-mode-toolkit.github.io/wiki/tech-setup.md) 
 
@@ -54,7 +54,7 @@ Test it. Run the project. Make sure it actually runs. If it doesn’t, we’re n
 
 ---
 
-## 🔍 Step 3: Understand the Problem
+##  Step 3: Understand the Problem
 
 ### Read Everything First. No, Seriously. All of It.
 
@@ -104,7 +104,7 @@ Don’t just run off into the wild. Wait for feedback. Better safe than sorry!
 
 ---
 
-## 💻 Step 5: Write Your Code
+##  Step 5: Write Your Code
 
 ### Keep It Simple. No Need to Rewrite the Bible.
 
@@ -151,16 +151,16 @@ Here’s the relevant code: [link to branch or paste snippet]
 
 ---
 
-## 🚀 Step 7: Submit Your Pull Request
+##  Step 7: Submit Your Pull Request
 
-### Double-Check Everything (You’re Almost There!) 🎯
+### Double-Check Everything (You’re Almost There!) 
 
 * Does your code fix the issue?
 * Did you run the tests?
 * Does it break anything else?
 * Is everything formatted nicely? If the answer is “no” to any of those, go back and fix it.
 
-### Write a PR Description (Keep It Clear and Snappy) ✍️
+### Write a PR Description (Keep It Clear and Snappy) 
 
 Here’s a template for you:
 
@@ -180,19 +180,19 @@ Fixes #[issue number]
 [Before and after images]
 ```
 
-### Reviewers: They’re Your Allies, Not Your Enemies 🤝
+### Reviewers: They’re Your Allies, Not Your Enemies 
 
 If reviewers ask for changes, don’t panic. Ask questions, make changes, and push updates. They’re not picking on you—they’re making your code better!
 
 ---
 
-## 🎉 Step 8: After Your PR is Merged
+##  Step 8: After Your PR is Merged
 
-### Celebrate! (It’s Party Time) 🎉
+### Celebrate! (It’s Party Time) 
 
 Pop the confetti! You just contributed to open-source and fixed a problem for real people. Well done, you!
 
-### Clean Up (No One Likes a Mess) 🧹
+### Clean Up (No One Likes a Mess) 
 
 * Delete your branch.
 * Pull the latest
@@ -200,7 +200,7 @@ Pop the confetti! You just contributed to open-source and fixed a problem for re
 
 changes to `main`. Clean slate, new issue, let’s go!
 
-### Keep Going! 🌱
+### Keep Going! 
 
 * Find another issue to fix.
 * Answer questions for other newbies.
@@ -208,7 +208,7 @@ changes to `main`. Clean slate, new issue, let’s go!
 
 ---
 
-### 🎯 Common Problems & Solutions
+###  Common Problems & Solutions
 
 * **Can’t get the project running?** Check your dependencies. Ask for help if you’re stuck.
 * **Your changes broke something?** Run tests. Debug. Don’t panic.
@@ -216,7 +216,7 @@ changes to `main`. Clean slate, new issue, let’s go!
 
 ---
 
-## 💡 Pro Tips for Success
+##  Pro Tips for Success
 
 ### Technical Tips:
 
@@ -232,4 +232,4 @@ changes to `main`. Clean slate, new issue, let’s go!
 
 ---
 
-And that’s it, rockstar! You’re ready to contribute like a pro. 🌟 Welcome to the open-source community—you’re gonna do great things.
+And that’s it, rockstar! You’re ready to contribute like a pro.  Welcome to the open-source community—you’re gonna do great things.

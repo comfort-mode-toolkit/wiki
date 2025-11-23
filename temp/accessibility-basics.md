@@ -1,4 +1,4 @@
-# Accessibility Basics 🌐
+# Accessibility Basics 
 *Why the web is uncomfortable for so many people (and what we can do about it)*
 
 ## The Reality Check
@@ -20,30 +20,30 @@ It's not about "disabled people" vs "nondisabled people." It's about recognizing
 
 **People who might experience the web differently include:**
 
-**🔍 Vision differences:**
+** Vision differences:**
 - Can't see small text or low contrast
 - Use screen readers to "hear" websites
 - See colors differently or not at all
 - Get overwhelmed by flashing or moving content
 
-**🎧 Hearing differences:**
+** Hearing differences:**
 - Need captions on videos
 - Can't rely on audio cues
 - Use sign language as their first language
 
-**🖱️ Movement differences:**
+** Movement differences:**
 - Can't use a mouse precisely
 - Navigate entirely with keyboard
 - Use voice commands or eye tracking
 - Have tremors that make small targets hard
 
-**🧠 Thinking differences:**
+** Thinking differences:**
 - Need more time to process information
 - Get confused by complex layouts
 - Have trouble with memory or attention
 - Process language differently
 
-**⚡ Temporary situations:**
+** Temporary situations:**
 - Broken arm (suddenly can't use mouse normally)
 - Noisy environment (need captions)
 - Bright sunlight (can't see low contrast)
@@ -72,20 +72,20 @@ Forget compliance checklists for a minute. Accessible just means "more people ca
 
 ## Common Myths (That Make This Harder Than It Needs to Be)
 
-**❌ "Accessible design is ugly"**
-✅ Good accessible design is often cleaner and clearer
+** "Accessible design is ugly"**
+ Good accessible design is often cleaner and clearer
 
-**❌ "It's expensive and complicated"**
-✅ Many improvements are simple and make things better for everyone
+** "It's expensive and complicated"**
+ Many improvements are simple and make things better for everyone
 
-**❌ "Only disabled people benefit"**
-✅ Captions help people in noisy places, good contrast helps people in bright sunlight, clear navigation helps everyone
+** "Only disabled people benefit"**
+ Captions help people in noisy places, good contrast helps people in bright sunlight, clear navigation helps everyone
 
-**❌ "I need to learn a ton of technical rules"**
-✅ Start with empathy and common sense, learn technical stuff as you go
+** "I need to learn a ton of technical rules"**
+ Start with empathy and common sense, learn technical stuff as you go
 
-**❌ "I'll get it wrong and offend someone"**
-✅ Trying and improving is better than not trying at all
+** "I'll get it wrong and offend someone"**
+ Trying and improving is better than not trying at all
 
 ---
 
@@ -104,27 +104,27 @@ Forget compliance checklists for a minute. Accessible just means "more people ca
 
 ## Simple Things You Can Start Doing Today
 
-**🔍 Vision:**
+** Vision:**
 - Use enough contrast between text and background
 - Make sure text is readable when zoomed to 200%
 - Don't rely only on color to communicate important info
 
-**⌨️ Navigation:**
+**⌨ Navigation:**
 - Make sure everything works with just a keyboard
 - Provide clear focus indicators (show where you are on the page)
 - Have a logical tab order through the page
 
-**📝 Content:**
+** Content:**
 - Write clear, simple headings that describe what's in each section
 - Use plain language when possible
 - Add alt text to images that describes what they show
 
-**🎬 Media:**
+** Media:**
 - Add captions to videos
 - Don't auto-play videos with sound
 - Provide transcripts for audio content
 
-**📱 Overall:**
+** Overall:**
 - Test with different devices and screen sizes
 - Make sure important actions are easy to find and trigger
 - Give people time to read and interact (no rushing)
@@ -188,4 +188,4 @@ Accessibility isn't about perfect compliance or knowing every rule. It's about r
 
 You don't need to be an expert to start. You just need to care about making things work better for more people.
 
-*The goal isn't perfection - it's progress toward a web that works for everyone* 🌟
+*The goal isn't perfection - it's progress toward a web that works for everyone* 
