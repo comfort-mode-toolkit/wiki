@@ -26,7 +26,7 @@ We believe in researching in the open. Here are the problems we are currently gr
        <div class="research-marker"></div>
        <div class="research-content">
          <div class="research-meta">
-            <span class="research-date">Oct 2025</span>
+            <span class="research-date">Oct 2025</span> 
          </div>
          <h3 class="research-title"><a href="cm-colors-vestibular-challenges.html">Vestibular Safety in Color Contrast</a></h3>
          <p class="research-desc">
