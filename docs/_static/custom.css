@@ -4,3 +4,82 @@
     --pst-font-family-base: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
     --pst-font-family-heading: 'Garamond', 'Georgia', serif;
 }
+
+/* Research Timeline Style */
+.research-timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    border-left: 2px solid var(--pst-color-border);
+}
+
+.research-item {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-left: 1.5rem;
+}
+
+.research-marker {
+    position: absolute;
+    left: -2.4rem; /* Adjust to align with border */
+    top: 0.5rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: var(--pst-color-text-base);
+    border-radius: 2px; /* Square-ish like the image */
+}
+
+.research-content {
+    background-color: var(--pst-color-surface);
+    padding: 1.5rem;
+    border: 1px solid var(--pst-color-border);
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px var(--pst-color-text-base); /* Brutalist shadow */
+    transition: transform 0.2s ease;
+}
+
+.research-content:hover {
+    transform: translateY(-2px);
+}
+
+.research-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--pst-font-family-heading);
+    font-size: 0.9rem;
+    color: var(--pst-color-text-muted);
+}
+
+.research-tag {
+    background-color: var(--pst-color-text-base);
+    color: var(--pst-color-surface);
+    
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.research-title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.research-title a {
+    text-decoration: none;
+    color: var(--pst-color-text-base);
+}
+
+.research-title a:hover {
+    text-decoration: underline;
+}
+
+.research-desc {
+    margin-bottom: 0;
+    color: var(--pst-color-text-muted);
+    line-height: 1.6;
+}
+

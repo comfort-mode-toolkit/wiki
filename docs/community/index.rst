@@ -1,6 +1,6 @@
-=======================
-Community Contribution
-=======================
+=========
+Community
+=========
 
 *Tending the garden*
 

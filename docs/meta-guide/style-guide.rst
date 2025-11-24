@@ -353,7 +353,7 @@ Links
 **Descriptive Link Text**
    Never use "click here" or "read more." The link text should describe where it goes.
 
-   * **Good:** "Read our :doc:`research ethics guidelines </contributing/research/ethics>`"
+   * **Good:** "Read our :doc:`research ethics guidelines </research/ethics>`"
    * **Avoid:** "Click here for research ethics"
 
 **External Links**

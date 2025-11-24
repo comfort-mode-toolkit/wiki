@@ -1,6 +1,6 @@
-==========================
-Documentation Contribution
-==========================
+=============
+Documentation
+=============
 
 *Making things clear for everyone*
 

@@ -1,6 +1,6 @@
-=======================
-Research Contribution
-=======================
+========
+Research
+========
 
 *Gathering wisdom to build better tools*
 
@@ -12,6 +12,7 @@ Research Contribution
 
    ethics
    social-media
+   open-problems/index
 
 Research at Comfort Commons isn't about writing papers for journals. It's about understanding real human needs so we can build tools that actually help.
 

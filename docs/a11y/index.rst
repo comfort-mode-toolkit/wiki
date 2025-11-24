@@ -169,8 +169,8 @@ What's Next?
 ============
 
 - **Ready to start contributing?** Check out our :doc:`/getting-started` guide.
-- **Want to dig deeper into research?** Visit our :doc:`/contributing/research/index`.
-- **Curious about ethics?** Read our :doc:`/contributing/research/ethics`.
+- **Want to dig deeper into research?** Visit our :doc:`/research/index`.
+- **Curious about ethics?** Read our :doc:`/research/ethics`.
 
 ----
 

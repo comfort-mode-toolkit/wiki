@@ -16,10 +16,10 @@ Check out our :doc:`index` page to understand our mission and values.
 ===================
 We have different guides depending on what you want to do:
 
-* **Want to write code?** Go to :doc:`contributing/code/index`.
-* **Want to research?** Go to :doc:`contributing/research/index`.
-* **Want to write docs?** Go to :doc:`contributing/documentation/index`.
-* **Want to help the community?** Go to :doc:`contributing/community/index`.
+* **Want to write code?** Go to :doc:`code/index`.
+* **Want to research?** Go to :doc:`research/index`.
+* **Want to write docs?** Go to :doc:`documentation/index`.
+* **Want to help the community?** Go to :doc:`community/index`.
 
 3. Learn the Basics
 ===================

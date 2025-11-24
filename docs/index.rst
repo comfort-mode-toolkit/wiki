@@ -92,7 +92,7 @@ What We Believe
    We ground our work in research and real-world testing, then translate it into plain language. If you need a PhD to understand our docs, we've failed. Academic credentials matter way less than curiosity and thoughtfulness.
 
 **Ethics aren't optional**
-   We protect everyone's privacy and dignity. No one gets labeled, studied, or exposed without their explicit consent. When someone shares their experience with us, we treat it with care. Read our full :doc:`research ethics approach <contributing/research/ethics>`.
+   We protect everyone's privacy and dignity. No one gets labeled, studied, or exposed without their explicit consent. When someone shares their experience with us, we treat it with care. Read our full :doc:`research ethics approach <research/ethics>`.
 
 **Everyone can contribute something**
    Code, documentation, research, testing, design feedback, community support, asking good questions—all of these matter. We mean it when we say everyone is welcome.
@@ -126,9 +126,9 @@ Want to Research or Write?
 
 **Start here if:** You're curious about accessibility research, like writing, or have lived experience to share.
 
-* Read our :doc:`Research Hub <contributing/research/index>` to see what we're exploring
-* Review our :doc:`research ethics guidelines <contributing/research/ethics>` to understand our approach
-* Check the :doc:`social media ethics guide <contributing/research/social-media>` if you're gathering community wisdom
+* Read our :doc:`Research Hub <research/index>` to see what we're exploring
+* Review our :doc:`research ethics guidelines <research/ethics>` to understand our approach
+* Check the :doc:`social media ethics guide <research/social-media>` if you're gathering community wisdom
 * Look for issues tagged "research" or "documentation"
 * Your lived experience and community knowledge are just as valuable as academic research—seriously
 
@@ -137,7 +137,7 @@ Ready to Write Code?
 
 **Start here if:** You want to contribute code or technical work.
 
-1. Set up your environment with our :doc:`Technical Setup Guide <contributing/code/setup>`
+1. Set up your environment with our :doc:`Technical Setup Guide <code/setup>`
 2. Browse open issues in our `repositories <https://github.com/comfort-mode-toolkit>`_
 3. Read a few pull requests to understand our review culture
 4. Ask questions in issues before diving in—we're happy to explain anything
@@ -227,12 +227,11 @@ Stuck on something? Have a question? Not sure where to start?
    :caption: Contribute
    :hidden:
 
-   contributing/index
-   contributing/code/index
-   contributing/research/index
-   contributing/documentation/index
-   contributing/community/index
-   contributing/testing/index
+   code/index
+   research/index
+   documentation/index
+   community/index
+   testing/index
 
 .. toctree::
    :maxdepth: 2
